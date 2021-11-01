@@ -92,7 +92,6 @@ int typeList(std::string dirName, int recurse){
 		closedir(directory);
 	}
     else {
-        std::cout << "directory" << dirName << "coultdnt be opened\n\n\n";
         return -1;
     }
     return 0;
